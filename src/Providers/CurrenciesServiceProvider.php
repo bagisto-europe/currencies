@@ -14,8 +14,6 @@ class CurrenciesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
-
         $this->loadRoutesFrom(__DIR__ . '/../Http/admin-routes.php');
 
         $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'currencies');
