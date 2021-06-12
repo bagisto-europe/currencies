@@ -7,6 +7,11 @@ With the help of this extensions you can import the most common currencies in yo
 ```sh
 composer require bagisto-eu/currencies:dev-master
 ```
+
+```
+php artisan optimize
+``` 
+
 Once installed, publish the package assets by executing the following command
 ```
 php artisan vendor:publish --provider="Bagisto\Currencies\Providers\CurrenciesServiceProvider"
