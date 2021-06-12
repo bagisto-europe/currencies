@@ -3,6 +3,7 @@
 With the help of this extensions you can import the most common currencies in your Bagisto instance.  
 
 ## Installation
+> :warning: This package is not installable via Composer 1.x, please make sure you upgrade to Composer 2+
 
 ```sh
 composer require bagisto-eu/currencies:dev-master
