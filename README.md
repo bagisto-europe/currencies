@@ -1,6 +1,6 @@
 # Bagisto Currencies
-[![Packagist Downloads](https://img.shields.io/packagist/dt/bagisto-eu/currencies)](https://packagist.org/packages/bagisto-eu/currencies)
-[![GitHub license](https://img.shields.io/github/license/bagisto-europe/currencies)](https://github.com/bagisto-europe/currencies/blob/master/LICENSE)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/bagisto-eu/currencies)](https://github.com/bagisto-europe/currencies/)
+[![GitHub license](https://img.shields.io/github/license/bagisto-europe/currencies)](https://github.com/bagisto-europe/currencies/blob/main/LICENSE)
 
 With the help of this extensions you can import the most common currencies in your Bagisto instance.  
 
