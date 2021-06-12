@@ -19,7 +19,15 @@
         });
 
         $("#startImport").click(function() {
-            addCurrencies()
+            if ($("td input:checkbox:checked").length > 0)
+            {
+                addCurrencies()
+            }
+            else
+            {
+                alert('Please select at least one currency to import.')
+            }
+
         });
 
         function addCurrencies(){
@@ -29,6 +37,7 @@
             $(":checked").each(function() {
                 data['currency_id[]'].push($(this).val());
             });
+
             $.post({
                 url: currencyStore,
                 data: data,
