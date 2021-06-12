@@ -1,0 +1,44 @@
+{
+    "name": "bagisto-eu/currencies",
+    "description": "This package contains the most common used currencies",
+    "keywords": [
+        "bagisto",
+        "ecommerce",
+        "currencies",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto Europe",
+            "email": "info@bagisto.eu",
+            "homepage": "https://bagisto.eu"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bagisto\\Currencies\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bagisto\\Currencies\\CurrenciesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/bagisto-europe/currencies/issues",
+        "forum": "https://forums.bagisto.com",
+        "source": "https://github.com/bagisto-europe/currencies",
+        "docs": "https://github.com/bagisto-europe/currencies"
+    }
+}
