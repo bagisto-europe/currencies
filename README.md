@@ -1,4 +1,8 @@
 # Bagisto Currencies
+[![Latest Stable Version](http://poser.pugx.org/bagisto-eu/currencies/v)](https://packagist.org/packages/bagisto-eu/currencies)
+[![Total Downloads](http://poser.pugx.org/bagisto-eu/currencies/downloads)](https://packagist.org/packages/bagisto-eu/currencies)
+[![Latest Unstable Version](http://poser.pugx.org/bagisto-eu/currencies/v/unstable)](https://packagist.org/packages/bagisto-eu/currencies)
+[![License](http://poser.pugx.org/bagisto-eu/currencies/license)](https://packagist.org/packages/bagisto-eu/currencies)
 
 With the help of this extensions you can import the most common currencies in your Bagisto instance.  
 
