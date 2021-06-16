@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bagisto\\Currencies\\CurrenciesServiceProvider"
+                "Bagisto\\Currencies\\Providers\\CurrenciesServiceProvider"
             ]
         }
     },
