@@ -18,15 +18,11 @@ class CurrenciesServiceProvider extends ServiceProvider
 
         $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'currencies');
 
+        $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'currencies');
+
         $this->publishes([
             __DIR__ . '/../Resources/assets/js/currencies.json' => public_path('currencies.json'),
         ], 'public');
-
-        $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'currencies');
-
-        Event::listen('bagisto.admin.layout.head', function($viewRenderEventManager) {
-            $viewRenderEventManager->addTemplate('currencies::admin.layouts.style');
-        });
 
         Event::listen('bagisto.admin.layout.body.after', function($viewRenderEventManager) {
             $viewRenderEventManager->addTemplate('currencies::admin.layouts.scripts');

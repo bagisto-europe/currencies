@@ -1,14 +1,18 @@
-# Bagisto Currencies
+<p align="center">
+    <img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" />
+    <h2 align="center">Bagisto Currencies</h2>
+</p>
+
 [![Latest Stable Version](http://poser.pugx.org/bagisto-eu/currencies/v)](https://packagist.org/packages/bagisto-eu/currencies)
 [![Total Downloads](http://poser.pugx.org/bagisto-eu/currencies/downloads)](https://packagist.org/packages/bagisto-eu/currencies)
 [![License](http://poser.pugx.org/bagisto-eu/currencies/license)](https://packagist.org/packages/bagisto-eu/currencies)
 
-With the help of this extensions you can import the most common currencies in your Bagisto instance.  
+With the help of this package you can import the most common currencies in your Bagisto instance.  
 
 ## Installation
 
 ```sh
-composer require bagisto-eu/currencies
+composer require bagisto-eu/currencies:dev-master
 ```
 
 ```
@@ -21,7 +25,6 @@ php artisan vendor:publish --provider="Bagisto\Currencies\Providers\CurrenciesSe
 ```
 
 ## Usage
-
 
 1. Go to your bagisto admin environment
 2. Click on Settings and select Currencies from the sidebar.

@@ -10,7 +10,6 @@
         <div class="page-header">
             <div class="page-title">
                 <h1>{{ __('currencies::app.import_title') }}</h1>
-                <p>{{ __('currencies::app.import_desc') }}</p>
             </div>
 
             <div class="page-action">
@@ -21,12 +20,17 @@
         </div>
 
         <div class="page-content">
-
             <div class="table">
                 <table>
                     <thead>
                         <tr style="height: 65px;">
-                        <th><input type="checkbox" id="selectAll"></th>
+                        <th>
+                            <span class="checkbox">
+                                <input type="checkbox" id="selectAll">
+                                <label for="checkbox" class="checkbox-view"></label>
+                                
+                            </span>
+                        </th>
                         <th>{{ __('admin::app.settings.currencies.code') }}</th>
                         <th>{{ __('admin::app.settings.currencies.name') }}</th>
                         <th>{{ __('admin::app.settings.currencies.symbol') }}</th>
@@ -35,7 +39,12 @@
                     <tbody>
                         @foreach($currencies as $currency)
                         <tr>
-                            <td><input type="checkbox" name="code[]" value="{{ $currency["code"] }}"></td>
+                            <td>
+                                <span class="checkbox">
+                                    <input type="checkbox" name="code[]" value="{{ $currency["code"] }}">
+                                    <label for="checkbox" class="checkbox-view"></label>
+                                </span>
+                            </td>
                             <td>{{ $currency["code"] }}</td>
                             <td>{{ $currency["name"] }}</td>
                             <td>{{ $currency["symbol"] }}</td>
